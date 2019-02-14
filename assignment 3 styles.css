@@ -1,0 +1,170 @@
+body {
+  background-color: #F5DA81;
+  text-align: center;
+}
+h1 {
+  background-color: #2A1B0A;
+  color: white;
+  font-family: Lucida handwriting;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid blue;
+
+}
+p {
+  color: #2A1B0A;
+  font-family: Lucida handwriting;
+  font-size: 20px;
+  border: 1px dotted red;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+
+}
+
+
+
+h2 {
+  color: #61380B;
+  font-family: lucida handwriting;
+  font-size: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+#iconheading {
+  color: #01A9DB;
+  font-family: lucida handwriting;
+  font-size: 30px;
+  margin: 30px;
+  text-align: center;
+}
+#header2 {
+  color: #088A08;
+  font-family: Palatino Linotype;
+  font-size: 25px;
+  margin: 30px;
+  text-align: center;
+}
+
+h3 {
+  color: #8A4B08;
+  font-family: Palatino Linotype;
+  font-size: 25px;
+  margin: 30px;
+  text-align: center;
+}
+#sunny {
+  color: #FF8000;
+  font-family: Palatino Linotype;
+  font-size: 25px;
+  margin: 30px;
+  text-align: center;
+}
+#canola {
+  color: #0431B4;
+  font-family: Palatino Linotype;
+  font-size: 25px;
+  margin: 30px;
+  text-align: center;
+}
+
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 35px;
+  text-align: center;
+}
+
+.table {
+  width: 40%;
+  margin: unset;
+}
+
+table tr:nth-child(even) {
+  background-color: #01DFA5;
+}
+table tr:nth-child(odd) {
+ background-color: #A5DF00;
+}
+table th {
+  background-color: black;
+  color: white;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.man th {
+  background-color: #013ADF;
+  color: white;
+}
+
+.women th {
+  background-color: #DF0174;
+  color: white;
+}
+
+.children th {
+  background-color: #FE9A2E;
+  color: white;
+}
+
+.help {
+  font-family: open sans;
+  font-size: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8A4B08;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #B45F04;
+}
+.map {
+  background-color: #FFBF00;
+  border: none;
+  color: #CEF6F5;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+  
+.button {
+  background-color: #FACC2E;
+  border: none;
+  color: #CEF6F5;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #FF8000;
+}
